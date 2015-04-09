@@ -34,9 +34,9 @@ public class YFSBeforeChangeOrderUEImpl implements YFSBeforeChangeOrderUE{
 		//creating new element for instruction and setting the attribute for the element
 		  Element eleInstruction = arg1.createElement("Instruction");
 		  eleInstruction.setAttribute("Action", "ADD");
-          //getting the enterprisecode attribute
+                //getting the enterprisecode attribute
 		  String enterpiseCode = inputCreateOrder.getAttribute("EnterpriseCode");
-		  //checking the enterprise code and setting instructions based on the enterprisecode
+		 //checking the enterprise code and setting instructions based on the enterprisecode
 		  if (enterpiseCode != null && enterpiseCode.equals("Matrix")) {
 		   eleInstruction.setAttribute("InstructionText",
 		     "This order belongs to Matrix enterprise");
