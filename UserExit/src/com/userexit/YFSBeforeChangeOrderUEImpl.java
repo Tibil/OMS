@@ -1,4 +1,9 @@
-/**
+/*
+ * YFSBeforeChangeOrderUEImpl:This class is used for adding instructions using YFSBeforeChangeOrderUE
+ * All rights reserved by tibil
+ * @copyright Copyright 2014, TibilSolutions
+ * @author Kavitha
+ * @package com.userexit 
  * 
  */
 package com.userexit;
@@ -11,11 +16,6 @@ import com.yantra.yfs.japi.YFSUserExitException;
 import com.yantra.yfs.japi.ue.YFSBeforeChangeOrderUE;
 
 /**
- * YFSBeforeChangeOrderUEImpl:This class is used for adding instructions using YFSBeforeChangeOrderUE
- * All rights reserved by tibil
- * @copyright Copyright 2014, TibilSolutions
- * @author Kavitha
- * @package com.userexit 
  * 
  */
 public class YFSBeforeChangeOrderUEImpl implements YFSBeforeChangeOrderUE{
@@ -34,9 +34,9 @@ public class YFSBeforeChangeOrderUEImpl implements YFSBeforeChangeOrderUE{
 		//creating new element for instruction and setting the attribute for the element
 		  Element eleInstruction = arg1.createElement("Instruction");
 		  eleInstruction.setAttribute("Action", "ADD");
-          //getting the enterprisecode attribute
+                //getting the enterprisecode attribute
 		  String enterpiseCode = inputCreateOrder.getAttribute("EnterpriseCode");
-		  //checking the enterprise code and setting instructions based on the enterprisecode
+		 //checking the enterprise code and setting instructions based on the enterprisecode
 		  if (enterpiseCode != null && enterpiseCode.equals("Matrix")) {
 		   eleInstruction.setAttribute("InstructionText",
 		     "This order belongs to Matrix enterprise");
