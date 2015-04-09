@@ -1,4 +1,9 @@
-/**
+/*
+ * YFSBeforeChangeOrderUEImpl:This class is used for adding instructions using YFSBeforeChangeOrderUE
+ * All rights reserved by tibil
+ * @copyright Copyright 2014, TibilSolutions
+ * @author Kavitha
+ * @package com.userexit 
  * 
  */
 package com.userexit;
@@ -11,11 +16,6 @@ import com.yantra.yfs.japi.YFSUserExitException;
 import com.yantra.yfs.japi.ue.YFSBeforeChangeOrderUE;
 
 /**
- * YFSBeforeChangeOrderUEImpl:This class is used for adding instructions using YFSBeforeChangeOrderUE
- * All rights reserved by tibil
- * @copyright Copyright 2014, TibilSolutions
- * @author Kavitha
- * @package com.userexit 
  * 
  */
 public class YFSBeforeChangeOrderUEImpl implements YFSBeforeChangeOrderUE{

@@ -1,5 +1,9 @@
-/**
- * 
+/*
+ * YFSBeforeCreateOrderUEImpl:This class is used for changing the OrderNo before creating order with the prefix value based on the enterprisecode  using YFSBeforeCreateOrderUE
+ * All rights reserved by tibil
+ * @copyright Copyright 2014, TibilSolutions
+ * @author Kavitha
+ * @package com.userexit 
  */
 package com.userexit;
 
@@ -11,11 +15,7 @@ import com.yantra.yfs.japi.YFSUserExitException;
 import com.yantra.yfs.japi.ue.YFSBeforeCreateOrderUE;
 
 /**
- * YFSBeforeCreateOrderUEImpl:This class is used for changing the OrderNo before creating order with the prefix value based on the enterprisecode  using YFSBeforeCreateOrderUE
- * All rights reserved by tibil
- * @copyright Copyright 2014, TibilSolutions
- * @author Kavitha
- * @package com.userexit 
+ * 
  */
 public class YFSBeforeCreateOrderUEImpl implements YFSBeforeCreateOrderUE{
 
